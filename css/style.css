@@ -1,0 +1,179 @@
+header{
+	width: 100%;
+	height: 150px;
+	margin: 0 auto;
+}
+
+header img{
+	display: block;
+	width: 100%;
+	height: 150px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+html body{
+	height: 100vh;
+}
+
+nav ul li{
+	font-family: 'Pacifico', 'Kaushan Script', cursive;
+    font-size: 20px;
+    line-height: 50px;
+    width: 200px;
+}
+
+ul li a{
+	padding: 8px 20px;
+}
+
+div.container img{
+	width: 250px;
+	height: 100%;
+}
+
+footer{
+	text-align: center;
+	line-height: 50px;
+}
+
+footer p{
+	margin: 0;
+}
+
+input{
+	width: 90%;
+	height: 40px;
+}
+
+textarea{
+	width: 90%;
+	border: 1px solid #999;
+	height:80px;
+}
+
+img{
+	display: block;
+	margin: 0 auto;
+}
+
+div.container img{
+	width: 100%;
+}
+
+.polaroid img{
+	padding: 10px;
+}
+
+p.description{
+	line-height: 40px;
+	margin: 0;
+}
+.background{
+	background: url(../img/background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.container{
+	background-color: white;
+}
+
+#pictures{
+	background-color: white;
+}
+
+.longerpage{
+	height: 100vh;
+}
+
+.navbar{
+	margin-bottom: 0;
+	border: none;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar{
+    text-align: center;
+}
+
+.navbar-right{
+	margin-right: 10px;
+}
+.navbar-default{
+	background-color: rgba(92, 138, 230, .5);
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: rgb(110, 91, 217);
+}
+
+.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:hover {
+    color: rgb(80, 69, 150);
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover {
+    color: rgb(80, 69, 150);
+	background-color: rgba(92, 138, 230, 0);
+}
+
+.polaroid {
+	background-color: #f1f1f1;
+	width: 90%;
+	margin: 0 auto;
+	-webkit-box-shadow: 3px 3px 3px 3px rgba(10, 10, 10, 10, .5);/*chrome and safari*/
+	-mod-box-shadow: 3px 3px 3px 3px rgba(10, 10, 10, .5);/*modzilla*/
+	box-shadow: 3px 3px 3px 3px rgba(10, 10, 10, .5);/*default newer browsers*/
+}
+
+.description{
+	font-family: 'Pacifico', 'Kaushan Script', cursive;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 10px;
+    height: 40px;
+}
+
+.pad{
+	margin-top: 65px;
+}
+
+.pad1{
+	padding-top: 21px;
+}
+
+.pad2{
+	padding-top: 100px;
+}
+
+.f_label{
+	text-align: right;
+	line-height: 40px;
+}
+
+.btn{
+	border-radius: 10px;
+  	height: 45px;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(128, 128, 255, .8);
+    -webkit-box-shadow: 1px 1px 1px 1px rgba(10, 10, 10, 10, .5);/*chrome and safari*/
+	-mod-box-shadow: 1px 1px 1px 1px rgba(10, 10, 10, .5);/*modzilla*/
+	box-shadow: 1px 1px 1px 1px rgba(10, 10, 10, .5);/*default newer browsers*/
+}
+
+.btn:hover{
+	background-color: rgb(80, 69, 144);
+	color:white;
+}
